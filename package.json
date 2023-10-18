@@ -1,0 +1,23 @@
+{
+  "name": "tsoding-vsc-theme",
+  "publisher": "Bruno Conde",
+  "displayName": "Tsoding-Gruber Darker Theme",
+  "description": "A dark theme based on Tsoding's Emacs theme for VSCode",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tsoding-Gruber Darker Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tsoding-gruber-darker-color-theme.json"
+      }
+    ]
+  }
+}
